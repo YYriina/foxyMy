@@ -3,6 +3,7 @@
     <div class="container">
       <div class="section-title text-center">
             <h3>Clips</h3>
+            <h3>Mixtape</h3>
             <h2>TRAP ART INTRO</h2>
         </div>
         <CarouselLarge :slideNumber="getScreenSize"/>

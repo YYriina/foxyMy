@@ -27,6 +27,7 @@
           </Slide>
         </Carousel>
         <div class="section-title text-center">
+            <h3>Album</h3>
             <h2>COLORS</h2>
         </div>
         <Carousel autoplay :perPage="slideNumber" loop class="services-carousel owl-theme">

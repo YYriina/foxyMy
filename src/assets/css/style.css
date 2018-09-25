@@ -39,6 +39,15 @@ h2 {
   border-radius: 25px;
 }
 
+h3 {
+  color: white;
+  font-weight: 600;
+  font-family: 'Megrim', cursive;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+
 h4 {
   color: white;
   font-size: 14px;
@@ -49,19 +58,9 @@ h4 {
 a {
   color: #292929;
   text-decoration: none !important;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 a:hover {
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
   color: #911710;
 }
 
@@ -72,7 +71,6 @@ a:hover, a:focus {
 
 nav ul li a {
   padding: 2px 0 0 0;
-  position: relative;
   display: block;
   font-size: 12px;
   color: #911710;
@@ -225,7 +223,7 @@ nav ul li {
 
 nav ul li a {
   padding: 2px 0 0 0;
-  position: relative;
+ 
   display: block;
   font-size: 14px;
   color: #999999;
@@ -393,6 +391,9 @@ nav ul li a {
   margin-top: 5px;
   text-align: center;
 }
+.ssmix{
+  height: 80px;
+}
 
 .services-carousel .owl-dot {
   display: inline-block;
@@ -444,20 +445,11 @@ nav ul li a {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
   color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  
 }
 
 #portfolio .portfolio-container {
@@ -518,20 +510,10 @@ nav ul li a {
   margin: 0 0 13px 0;
   font-weight: 500;
   color: #292929;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
   color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 .journal-block .journal-info .journal-txt p {

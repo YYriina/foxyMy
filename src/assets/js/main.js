@@ -17,9 +17,7 @@ $(document).ready(function() {
 
     $('a').each(function() {
       $(this).removeClass('active');
-      if ($(window).width() < 768) {
-        $('.nav-menu').slideUp();
-      }
+      
     });
 
     $(this).addClass('active');
@@ -63,7 +61,7 @@ $(document).ready(function() {
       $("#main-nav-subpage").addClass('subpage-nav');
     }
   });*/
-
+/*
   // ========================================================================= //
   //  // RESPONSIVE MENU
   // ========================================================================= //
@@ -71,7 +69,7 @@ $(document).ready(function() {
   $('.responsive').on('click', function(e) {
     $('.nav-menu').slideToggle();
   });
-
+*/
   // ========================================================================= //
   //  Typed Js
   // ========================================================================= //

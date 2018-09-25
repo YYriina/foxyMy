@@ -2,7 +2,7 @@
   <div id="about" class="paddsection">
     <div class="container">
       <div class="section-title text-center">
-            <h2>Mixtape</h2>
+            <h3>Mixtape</h3>
         </div>
       <div class="row justify-content-between">
         <!--<div class="col-lg-12">
@@ -16,6 +16,8 @@
             <a href="../assets/presse.pdf">clique</a>-->
             <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/600709812&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
           </div>
+          <a href="../assets/presse.pdf" ><img src='../assets/images/dp.png' class="ssmix" /></a>
+          <a href="../assets/TAI.zip"  ><img src='../assets/images/cd.png' class="ssmix" height="80px" /></a>
         </div>
       </div>
     </div>
@@ -35,6 +37,7 @@ export default {
   p.text {
     display : none
   }
+  
 </style>
 
 
