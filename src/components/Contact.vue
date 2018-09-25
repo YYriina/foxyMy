@@ -49,6 +49,14 @@
                 </div>
               </div>
             </form>
+            <div class="Alert">
+              <div v-if="err" class="alert alert-danger" role="alert">
+                {{ errMsg }}
+              </div>
+              <div v-if="success" class="alert alert-success" role="alert">
+                Le Mail à bien été envoyé
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -66,7 +74,10 @@ export default {
         nom:'',
         mail:'',
         sujet:'',
-        msg:''
+        msg:'',
+        err:false,
+        success:false,
+        errMsg:"Le mail n'a pas pu être envoyé"
       }
     },
     methods:{
@@ -80,10 +91,16 @@ export default {
           }
         })
         .then(response=>{
-          console.log(response);
+          this.success = true;
+          this.nom="";
+          this.mail="";
+          this.sujet="";
+          this.msg="";
         })
         .catch(error=>{
           console.log(error);
+          this.err=true;
+          errMsg="Une erreur est survenue";
         })
         .then(()=>{
           // always executed
@@ -94,5 +111,4 @@ export default {
 </script>
 
 <style>
-
 </style>
